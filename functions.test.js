@@ -11,3 +11,8 @@ test("Add 2 + 2 != 5 ", () => {
 test("Should be Falsy ", () => {
     expect(functions.checkValue(null)).toBeFalsy(); // null, undefined, 0 gets passed
 });
+
+test("Should be Equal to User Object ", () => {
+    expect(functions.createUser('Pappzi')).toEqual({firstName: 'Pappzi'});
+});
+
