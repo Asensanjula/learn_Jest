@@ -29,3 +29,10 @@ test("There is no I in word ", () => {
 
 });
 
+//Arrays
+test(" Admin should be in usernames ", () => {
+    usernames = ['pappz', 'silva', 'lucifier']
+    expect(usernames).toContain('pappzi');
+
+});
+
